@@ -1,0 +1,28 @@
+/*--------------- Default Styles (Mobile-first Approach)  --------------- */
+*, ::before, ::after {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+@font-face {
+    font-family: "";
+    src: url('assets/fonts/Smythe-Regular.ttf') format('truetype');
+}
+
+:root {
+    /* colors */
+    --white: #FFFFFF;
+    --black: #000000;
+    --grey: #8B8B8B;
+    --grn-button: #16DB99;
+
+    /* typography */
+    font-size: 20px;
+    font-family: "Smythe", serif;
+}
+
+
+#view-more {
+    display: none;
+}
