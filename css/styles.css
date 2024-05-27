@@ -6,8 +6,13 @@
 }
 
 @font-face {
-    font-family: "";
-    src: url('assets/fonts/Smythe-Regular.ttf') format('truetype');
+    font-family: "Source Sans Pro";
+    src: url('assets/fonts/Source-Sans-Pro/SourceSansPro-Regular.otf') format('truetype');
+}
+
+@font-face {
+    font-family: "Roboto";
+    src: url('assets/fonts/Roboto/Roboto-Regular.ttf') format('truetype');
 }
 
 :root {
@@ -19,9 +24,13 @@
 
     /* typography */
     font-size: 20px;
-    font-family: "Smythe", serif;
+    font-family: "Source Sans Pro", serif;
 }
 
+.lj-home {
+    font-family: 'Roboto';
+    font-weight: bold;
+}
 
 #view-more {
     display: none;
