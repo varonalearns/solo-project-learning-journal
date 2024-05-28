@@ -19,19 +19,148 @@
     /* colors */
     --white: #FFFFFF;
     --black: #000000;
-    --grey: #8B8B8B;
-    --grn-button: #16DB99;
+    --drk-grey: #505050;
 
     /* typography */
-    font-size: 20px;
+    font-size: 12px;
     font-family: "Source Sans Pro", serif;
 }
 
+.date {
+    margin-bottom: 8px;
+}
+
+h1 {
+    font-size: 2.7rem;
+    margin-bottom: 8px;
+}
+
+h2 {
+    font-size: 2rem;
+    margin-bottom: 8px;
+}
+h3 {
+    font-size: 1rem;
+}
+
+section {
+    padding: 2rem 1.5rem;
+}
+
+section img {
+    width: 100%;
+}
+
+p {
+    line-height: 1.25;
+    font-size: 16px;
+}
+
+article {
+    margin-bottom: 3.4rem;
+}
+
+button {
+    border: none;
+    color: var(--black);
+    background-color: var(--white);
+    font-size: 1.3rem;
+    font-weight: 600;
+    text-decoration: underline;
+    cursor: pointer;
+    margin-bottom: 3.4rem;
+}
+
+/*---------- Header -----------*/
+header {
+    padding: 1rem 1.5rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
 .lj-home {
-    font-family: 'Roboto';
+    display: flex;
+    align-items: center;
+    font-size: 13.5px;
+    font-family: 'Roboto', serif;
     font-weight: bold;
+}
+.lj-home span {
+    margin-left: 0.25rem;
+}
+.lj-pages {
+    width: 30vw;
+}
+.lj-pages ul {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.lj-pages li {
+    list-style: none;
+}
+.lj-pages a {
+    color: var(--black);
+    font-weight: 600;
+    text-decoration: none;
+    text-transform: uppercase;
+}
+.lj-pages a:hover {
+    color: var(--drk-grey);
+}
+
+/*---------- Main -----------*/
+
+/* ----- index.html ----- */
+
+/* hero section */
+.hero-section {
+    background-image: url("/assets/images/article-image-hero.png");
+    background-size: cover;
+    background-position: center;
+    background-repeat: none;
+    color: var(--white);
+    padding: 7rem 1.5rem 2rem 1.5rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: end;
+}
+
+.hero-section a {
+    color: var(--white);
+}
+
+.hero-section a:hover {
+    color: var(--white);
+}
+
+/* blogs section */
+.blogs-section {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.blogs-section img {
+    margin-bottom: 14px;
+}
+.blogs-section .date {
+    font-size: 1.2rem;
 }
 
 #view-more {
     display: none;
+}
+
+/*---------- Footer -----------*/
+footer {
+    padding: 2rem 1rem;
+    text-align: center;
+    color: var(--white);
+    background-color: var(--black);
+    font-size: 1rem;
+}
+
+footer p {
+    font-size: 1rem;
 }
