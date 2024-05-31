@@ -81,7 +81,7 @@ button {
 
 /*---------- Header -----------*/
 header {
-    padding: 1rem 1.5rem;
+    padding: 1rem 0rem;
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -211,4 +211,23 @@ footer {
 
 footer p {
     font-size: 1rem;
+}
+
+/*--------------- Screens larger than mobile  --------------- */
+
+@media only screen and (min-width: 481px) {
+    header, main, footer {
+        width: 440px;
+        margin: 0 auto;
+    }
+
+    /*---------- Header -----------*/
+    .lj-pages {
+        width: 20vw;
+    }
+}
+
+/*--------------- Desktop  --------------- */
+@media only screen and (min-width: 1024px) {
+    
 }
