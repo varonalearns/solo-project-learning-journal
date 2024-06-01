@@ -1,5 +1,7 @@
-const viewMoreEl = document.getElementById("view-more")
+const hideEl = document.querySelectorAll(".hide");
+const vmBtnEl = document.getElementById("vm-btn");
 
-function viewMore() {
-    viewMoreEl.style.display = "block";
+function unhide() {
+    vmBtnEl.style.display = "none";
+    hideEl.forEach( (element) => element.style.display = "block" );
 }
